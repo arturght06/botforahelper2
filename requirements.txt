@@ -2,4 +2,3 @@ aiogram
 asyncio
 python-barcode
 requests
-importlib
