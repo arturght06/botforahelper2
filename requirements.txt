@@ -1,0 +1,8 @@
+aiogram
+asyncio
+python-barcode
+requests
+json
+importlib
+os
+sqlite3
