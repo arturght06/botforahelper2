@@ -7,7 +7,7 @@ from database import sqlitedb
 # @dp.message_handler(commands=['start'])
 async def process_hi_command(message):
     await message.answer_sticker(r'CAACAgQAAxkBAAEDy5Fh-x-svmcxY5AZKtmbD1ey64QiwAACiAADLOlYDEVV-cLQgV_2IwQ')
-    await message.reply(f'{str(message.from_user.id)}\nПривет👋🏽\nЭтот бот проверяет информацию об аккаунте в приложении \"Fora\"ПСС...  кнопка уже внизу👇' , reply_markup=greet_key)
+    await message.reply(f'{str(message.from_user.id)}\nПривет22👋🏽\nЭтот бот проверяет информацию об аккаунте в приложении \"Fora\"ПСС...  кнопка уже внизу👇' , reply_markup=greet_key)
 
 # async def echo(message):
 #     a = await sqlitedb.sql_add_number(message.from_user.id, message.text)
